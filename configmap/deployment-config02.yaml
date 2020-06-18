@@ -21,8 +21,8 @@ spec:
         - containerPort: 8080
         envFrom:
         - configMapRef:
-            name: config-dev
-            # name: config-prod
+            #name: config-dev
+            name: config-prod
 ---
 apiVersion: v1
 kind: Service
